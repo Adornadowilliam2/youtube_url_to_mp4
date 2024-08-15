@@ -101,3 +101,16 @@ button:active {
     font-size: 14px;
   }
 }
+
+.message {
+  font-size: 18px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 20px;
+}
+.success {
+  color: #28a745;
+}
+.error {
+  color: #dc3545;
+}
