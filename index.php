@@ -4,13 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Youtube converter</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <form action="index.php" method="post">
-        <label for="url">Youtube URL: </label>
-        <input type="text" name="url" id="url" required>
-        <button type="submit">Submit</button>
-    </form>
+<div class="container">
+      <h1>YouTube to MP4 Converter</h1>
+      <form action="index.php" method="post">
+        <label for="url">YouTube URL:</label>
+        <input
+          type="text"
+          name="url"
+          id="url"
+          placeholder="Enter YouTube URL here"
+          required
+        />
+        <button type="submit">Convert</button>
+      </form>
+    </div>
 
     <?php
     /**
