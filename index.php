@@ -51,7 +51,7 @@
         // Define the path to the yt-dlp executable
         //path from my laptop
         // C:\\Users\\Fe Adornado\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\yt-dlp.exe
-        $ytDlpPath = 'C:\\Users\\Adornado\\AppData\\Local\\Programs\\Python\\Python311\\Scripts\\yt-dlp.exe';
+        $ytDlpPath = 'C:\\Users\\Fe Adornado\\AppData\\Local\\Programs\\Python\\Python312\\Scripts\\yt-dlp.exe';
 
         // Build the command string
         $command = "\"$ytDlpPath\" -f mp4 $url";
