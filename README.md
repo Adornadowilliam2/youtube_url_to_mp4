@@ -1,4 +1,19 @@
-# youtube_url_to_mp4
 
-[![Python Version](https://img.shields.io/badge/Python-3.9-blue)](https://www.python.org/)
-[![PHP Version](https://img.shields.io/badge/PHP-7.4-blue)](https://www.php.net/)
+# How to make mp3 and mp4 using python command
+
+- first install the yt-dlp
+
+
+```php
+pip install yt-dlp
+```
+
+-then once it work you can input this two command base on what you want to do in your url you get 
+
+```php
+# for video mp4
+yt-dlp -f mp4 https://youtu.be/K2GNBzWRXWE
+# for audio music mp3
+yt-dlp -x --audio-format mp3 https://youtu.be/K2GNBzWRXWE
+```
+
