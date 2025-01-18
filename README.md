@@ -5,7 +5,10 @@
 
 
 ```php
-pip install yt-dlp
+pip install yt-dlp 
+or 
+pip install -r requirements.txt
+
 ```
 
 -then once it work you can input this two command base on what you want to do in your url you get 
