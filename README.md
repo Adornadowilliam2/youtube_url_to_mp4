@@ -17,3 +17,19 @@ yt-dlp -f mp4 https://youtu.be/K2GNBzWRXWE
 yt-dlp -x --audio-format mp3 https://youtu.be/K2GNBzWRXWE
 ```
 
+# Also if there is an issue like i didnt turn into webm not mp3 here what to do
+
+- in windows open your powershell type 
+
+```php
+winget install "FFmpeg (Essentials Build)"
+winget install "FFmpeg (Shared)"
+winget install ffmpeg
+
+```
+once it finish add this to path folder 
+
+```php
+C:\Users\ADORNADO\AppData\Local\Microsoft\WinGet\Links\
+```
+
