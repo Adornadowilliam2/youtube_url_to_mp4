@@ -18,7 +18,22 @@ pip install -r requirements.txt
 yt-dlp -f mp4 https://youtu.be/K2GNBzWRXWE
 # for audio music mp3
 yt-dlp -x --audio-format mp3 https://youtu.be/K2GNBzWRXWE
+
+
+if this didn't work it mean the script has not been add yet
+C:\Users\<username>\AppData\Roaming\Python\Python313\Scripts
+
+
 ```
+- if that did not work try this instead 
+
+```php
+python -m yt_dlp -f mp4 https://youtu.be/K2GNBzWRXWE
+
+python -m yt_dlp -f mp4 yt-dlp -x --audio-format mp3 https://youtu.be/K2GNBzWRXWE
+
+```
+
 
 # Also if there is an issue like i didnt turn into webm not mp3 here what to do
 
